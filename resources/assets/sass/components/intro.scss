@@ -1,0 +1,36 @@
+
+.intro {
+  background: #333 url(/imgs/lawn.jpg) no-repeat center center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  &.shoes {
+    background-image: url(/imgs/shoes.jpg);
+    background-position: center bottom;
+  }
+  &.blade {
+    background-image: url(/imgs/blade.jpg);
+  }
+  h1 {
+    text-align: center;
+    margin: 0;
+    text-transform: capitalize;
+    padding: 15px 0;
+    color: #FFF;
+    &:after {
+      content: "";
+      display: block;
+      padding-top: 8px;
+      width: 80px;
+      margin: auto;
+      border-bottom: 3px solid #ebebeb;
+    }
+  }
+  p {
+    text-transform: capitalize;
+    font-weight: 300;
+  }
+}

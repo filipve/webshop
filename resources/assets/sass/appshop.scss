@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$btn-font-weight: 300;
+$font-family-base: 'Lato', Verdana,Arial,Helvetica,sans-serif;
+$navbar-border-radius: 0;
+$navbar-margin-bottom: 0;
+$navbar-default-bg: #fff;
+$navbar-default-border: #fff;
+$green: #A0CE4E;
+$link-color: $green;
+
+@import "components/intro";
+
+.navbar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  .navbar-brand {
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $green;
+    span {
+      color: #777777;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #3A3A3A;
+  font-weight: 300;
+  line-height: 1.1;
+}
+h1.primary {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.sidenav {
+  margin-top: 20px;
+  border-left: 1px solid #eee;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  background: #eee;
+  color: #aaa;
+  border-top: 1px solid #e3e3e3;
+}
+
+.product h3 {
+  margin-top: 0px;
+}
+
+.product-img {
+  height: 300px;
+  width: 300px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.centerimg{
+  display: block;
+  margin: 0 auto;
+}
